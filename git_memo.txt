@@ -1,0 +1,22 @@
+$git init
+↓
+$git add ファイル名
+↓
+$git commit -m "メッセージ"
+↓
+($git remote add リポジトリ名 URL)
+↓
+$git push リポジトリ名 master
+↓
+$git pull リポジトリ名 master
+
+
+$git status
+（変更したファイル表示/addしたファイル確認）
+
+$git diff
+（変更内容表示）
+
+$git log　　※メッセージのみ
+$git log -p　※内容
+（コミット履歴表示）
